@@ -1,6 +1,6 @@
 # Aplikasi Beli Kopi
 
-Proyek ini adalah aplikasi sederhana untuk pembelian kopi secara digital, yang dikembangkan sebagai *tugas mata kuliah Pemrograman Visual. Aplikasi ini dibuat menggunakan **Visual Studio Code* dengan bahasa pemrograman *HTML, CSS, JavaScript, dan **PHP* serta *MySQL* sebagai database.
+Proyek ini adalah aplikasi sederhana untuk pembelian kopi secara digital, yang dikembangkan sebagai tugas mata kuliah Pemrograman Visual. Aplikasi ini dibuat menggunakan Visual Studio Code dengan bahasa pemrograman HTML, CSS, JavaScript, dan PHP serta MySQL sebagai database.
 
 ## Deskripsi
 
