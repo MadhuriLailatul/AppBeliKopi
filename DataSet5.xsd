@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet5" targetNamespace="http://tempuri.org/DataSet5.xsd" xmlns:mstns="http://tempuri.org/DataSet5.xsd" xmlns="http://tempuri.org/DataSet5.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet5" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="DataSet5" msprop:Generator_DataSetName="DataSet5">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="kopi" msprop:Generator_RowEvHandlerName="kopiRowChangeEventHandler" msprop:Generator_RowDeletedName="kopiRowDeleted" msprop:Generator_RowDeletingName="kopiRowDeleting" msprop:Generator_RowEvArgName="kopiRowChangeEvent" msprop:Generator_TablePropName="kopi" msprop:Generator_RowChangedName="kopiRowChanged" msprop:Generator_RowChangingName="kopiRowChanging" msprop:Generator_TableClassName="kopiDataTable" msprop:Generator_RowClassName="kopiRow" msprop:Generator_TableVarName="tablekopi" msprop:Generator_UserTableName="kopi">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="kodepelanggan" msprop:Generator_ColumnPropNameInRow="kodepelanggan" msprop:Generator_ColumnPropNameInTable="kodepelangganColumn" msprop:Generator_ColumnVarNameInTable="columnkodepelanggan" msprop:Generator_UserColumnName="kodepelanggan" type="xs:string" minOccurs="0" />
+              <xs:element name="namapelanggan" msprop:Generator_ColumnPropNameInRow="namapelanggan" msprop:Generator_ColumnPropNameInTable="namapelangganColumn" msprop:Generator_ColumnVarNameInTable="columnnamapelanggan" msprop:Generator_UserColumnName="namapelanggan" type="xs:string" minOccurs="0" />
+              <xs:element name="namamenu" msprop:Generator_ColumnPropNameInRow="namamenu" msprop:Generator_ColumnPropNameInTable="namamenuColumn" msprop:Generator_ColumnVarNameInTable="columnnamamenu" msprop:Generator_UserColumnName="namamenu" type="xs:string" minOccurs="0" />
+              <xs:element name="harga" msprop:Generator_ColumnPropNameInRow="harga" msprop:Generator_ColumnPropNameInTable="hargaColumn" msprop:Generator_ColumnVarNameInTable="columnharga" msprop:Generator_UserColumnName="harga" type="xs:string" minOccurs="0" />
+              <xs:element name="jumlah" msprop:Generator_ColumnPropNameInRow="jumlah" msprop:Generator_ColumnPropNameInTable="jumlahColumn" msprop:Generator_ColumnVarNameInTable="columnjumlah" msprop:Generator_UserColumnName="jumlah" type="xs:string" minOccurs="0" />
+              <xs:element name="subtotal" msprop:Generator_ColumnPropNameInRow="subtotal" msprop:Generator_ColumnPropNameInTable="subtotalColumn" msprop:Generator_ColumnVarNameInTable="columnsubtotal" msprop:Generator_UserColumnName="subtotal" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

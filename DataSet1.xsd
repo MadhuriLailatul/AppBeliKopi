@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (MySettings)" PropertyReference="ApplicationSettings.AppBeliKopi.My.MySettings.GlobalReference.Default.ConnectionString" Provider="System.Data.Odbc" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString1 (MySettings)" PropertyReference="ApplicationSettings.AppBeliKopi.My.MySettings.GlobalReference.Default.ConnectionString1" Provider="System.Data.Odbc" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tbl_adminTableAdapter" GeneratorDataComponentClassName="tbl_adminTableAdapter" Name="tbl_admin" UserDataComponentName="tbl_adminTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString1 (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM `tbl_admin`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="kodeadmin" DataSetColumn="kodeadmin" />
+              <Mapping SourceColumn="namaadmin" DataSetColumn="namaadmin" />
+              <Mapping SourceColumn="passwordadmin" DataSetColumn="passwordadmin" />
+              <Mapping SourceColumn="leveladmin" DataSetColumn="leveladmin" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tbl_cetakTableAdapter" GeneratorDataComponentClassName="tbl_cetakTableAdapter" Name="tbl_cetak" UserDataComponentName="tbl_cetakTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString1 (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM `tbl_cetak`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="kodeadmin" DataSetColumn="kodeadmin" />
+              <Mapping SourceColumn="namapelanggan" DataSetColumn="namapelanggan" />
+              <Mapping SourceColumn="tgljual" DataSetColumn="tgljual" />
+              <Mapping SourceColumn="jamjual" DataSetColumn="jamjual" />
+              <Mapping SourceColumn="namamenu" DataSetColumn="namamenu" />
+              <Mapping SourceColumn="hargajual" DataSetColumn="hargajual" />
+              <Mapping SourceColumn="jumlahjual" DataSetColumn="jumlahjual" />
+              <Mapping SourceColumn="subtotal" DataSetColumn="subtotal" />
+              <Mapping SourceColumn="totaljual" DataSetColumn="totaljual" />
+              <Mapping SourceColumn="dibayar" DataSetColumn="dibayar" />
+              <Mapping SourceColumn="kembali" DataSetColumn="kembali" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tbl_detailjualTableAdapter" GeneratorDataComponentClassName="tbl_detailjualTableAdapter" Name="tbl_detailjual" UserDataComponentName="tbl_detailjualTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString1 (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM `tbl_detailjual`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="nojual" DataSetColumn="nojual" />
+              <Mapping SourceColumn="namamenu" DataSetColumn="namamenu" />
+              <Mapping SourceColumn="hargajual" DataSetColumn="hargajual" />
+              <Mapping SourceColumn="jumlahjual" DataSetColumn="jumlahjual" />
+              <Mapping SourceColumn="subtotal" DataSetColumn="subtotal" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tbl_jualTableAdapter" GeneratorDataComponentClassName="tbl_jualTableAdapter" Name="tbl_jual" UserDataComponentName="tbl_jualTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString1 (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM `tbl_jual`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="nojual" DataSetColumn="nojual" />
+              <Mapping SourceColumn="tgljual" DataSetColumn="tgljual" />
+              <Mapping SourceColumn="jamjual" DataSetColumn="jamjual" />
+              <Mapping SourceColumn="itemjual" DataSetColumn="itemjual" />
+              <Mapping SourceColumn="totaljual" DataSetColumn="totaljual" />
+              <Mapping SourceColumn="dibayar" DataSetColumn="dibayar" />
+              <Mapping SourceColumn="kembali" DataSetColumn="kembali" />
+              <Mapping SourceColumn="kodepelanggan" DataSetColumn="kodepelanggan" />
+              <Mapping SourceColumn="kodeadmin" DataSetColumn="kodeadmin" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tbl_menuTableAdapter" GeneratorDataComponentClassName="tbl_menuTableAdapter" Name="tbl_menu" UserDataComponentName="tbl_menuTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString1 (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM `tbl_menu`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="namamenu" DataSetColumn="namamenu" />
+              <Mapping SourceColumn="komposisi" DataSetColumn="komposisi" />
+              <Mapping SourceColumn="jumlahstok" DataSetColumn="jumlahstok" />
+              <Mapping SourceColumn="satuanbarang" DataSetColumn="satuanbarang" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tbl_pelangganTableAdapter" GeneratorDataComponentClassName="tbl_pelangganTableAdapter" Name="tbl_pelanggan" UserDataComponentName="tbl_pelangganTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString1 (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM `tbl_pelanggan`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="kodepelanggan" DataSetColumn="kodepelanggan" />
+              <Mapping SourceColumn="namapelanggan" DataSetColumn="namapelanggan" />
+              <Mapping SourceColumn="namamenu" DataSetColumn="namamenu" />
+              <Mapping SourceColumn="harga" DataSetColumn="harga" />
+              <Mapping SourceColumn="jumlah" DataSetColumn="jumlah" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet1" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tbl_admin" msprop:Generator_RowClassName="tbl_adminRow" msprop:Generator_RowEvHandlerName="tbl_adminRowChangeEventHandler" msprop:Generator_RowDeletedName="tbl_adminRowDeleted" msprop:Generator_RowDeletingName="tbl_adminRowDeleting" msprop:Generator_RowEvArgName="tbl_adminRowChangeEvent" msprop:Generator_TablePropName="tbl_admin" msprop:Generator_RowChangedName="tbl_adminRowChanged" msprop:Generator_UserTableName="tbl_admin" msprop:Generator_RowChangingName="tbl_adminRowChanging" msprop:Generator_TableClassName="tbl_adminDataTable" msprop:Generator_TableVarName="tabletbl_admin">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="kodeadmin" msprop:Generator_UserColumnName="kodeadmin" msprop:Generator_ColumnPropNameInTable="kodeadminColumn" msprop:Generator_ColumnPropNameInRow="kodeadmin" msprop:Generator_ColumnVarNameInTable="columnkodeadmin">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="namaadmin" msprop:Generator_UserColumnName="namaadmin" msprop:Generator_ColumnPropNameInTable="namaadminColumn" msprop:Generator_ColumnPropNameInRow="namaadmin" msprop:Generator_ColumnVarNameInTable="columnnamaadmin">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="passwordadmin" msprop:Generator_UserColumnName="passwordadmin" msprop:Generator_ColumnPropNameInTable="passwordadminColumn" msprop:Generator_ColumnPropNameInRow="passwordadmin" msprop:Generator_ColumnVarNameInTable="columnpasswordadmin">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="leveladmin" msprop:Generator_UserColumnName="leveladmin" msprop:Generator_ColumnPropNameInTable="leveladminColumn" msprop:Generator_ColumnPropNameInRow="leveladmin" msprop:Generator_ColumnVarNameInTable="columnleveladmin">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tbl_cetak" msprop:Generator_RowClassName="tbl_cetakRow" msprop:Generator_RowEvHandlerName="tbl_cetakRowChangeEventHandler" msprop:Generator_RowDeletedName="tbl_cetakRowDeleted" msprop:Generator_RowDeletingName="tbl_cetakRowDeleting" msprop:Generator_RowEvArgName="tbl_cetakRowChangeEvent" msprop:Generator_TablePropName="tbl_cetak" msprop:Generator_RowChangedName="tbl_cetakRowChanged" msprop:Generator_UserTableName="tbl_cetak" msprop:Generator_RowChangingName="tbl_cetakRowChanging" msprop:Generator_TableClassName="tbl_cetakDataTable" msprop:Generator_TableVarName="tabletbl_cetak">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="kodeadmin" msprop:Generator_UserColumnName="kodeadmin" msprop:Generator_ColumnPropNameInTable="kodeadminColumn" msprop:Generator_ColumnPropNameInRow="kodeadmin" msprop:Generator_ColumnVarNameInTable="columnkodeadmin">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="namapelanggan" msprop:Generator_UserColumnName="namapelanggan" msprop:Generator_ColumnPropNameInTable="namapelangganColumn" msprop:Generator_ColumnPropNameInRow="namapelanggan" msprop:Generator_ColumnVarNameInTable="columnnamapelanggan">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tgljual" msprop:Generator_UserColumnName="tgljual" msprop:Generator_ColumnPropNameInTable="tgljualColumn" msprop:Generator_ColumnPropNameInRow="tgljual" msprop:Generator_ColumnVarNameInTable="columntgljual" type="xs:dateTime" />
+              <xs:element name="jamjual" msprop:Generator_UserColumnName="jamjual" msprop:Generator_ColumnPropNameInTable="jamjualColumn" msprop:Generator_ColumnPropNameInRow="jamjual" msprop:Generator_ColumnVarNameInTable="columnjamjual" type="xs:duration" />
+              <xs:element name="namamenu" msprop:Generator_UserColumnName="namamenu" msprop:Generator_ColumnPropNameInTable="namamenuColumn" msprop:Generator_ColumnPropNameInRow="namamenu" msprop:Generator_ColumnVarNameInTable="columnnamamenu">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hargajual" msprop:Generator_UserColumnName="hargajual" msprop:Generator_ColumnPropNameInTable="hargajualColumn" msprop:Generator_ColumnPropNameInRow="hargajual" msprop:Generator_ColumnVarNameInTable="columnhargajual" type="xs:int" />
+              <xs:element name="jumlahjual" msprop:Generator_UserColumnName="jumlahjual" msprop:Generator_ColumnPropNameInTable="jumlahjualColumn" msprop:Generator_ColumnPropNameInRow="jumlahjual" msprop:Generator_ColumnVarNameInTable="columnjumlahjual" type="xs:int" />
+              <xs:element name="subtotal" msprop:Generator_UserColumnName="subtotal" msprop:Generator_ColumnPropNameInTable="subtotalColumn" msprop:Generator_ColumnPropNameInRow="subtotal" msprop:Generator_ColumnVarNameInTable="columnsubtotal" type="xs:int" />
+              <xs:element name="totaljual" msprop:Generator_UserColumnName="totaljual" msprop:Generator_ColumnPropNameInTable="totaljualColumn" msprop:Generator_ColumnPropNameInRow="totaljual" msprop:Generator_ColumnVarNameInTable="columntotaljual" type="xs:int" />
+              <xs:element name="dibayar" msprop:Generator_UserColumnName="dibayar" msprop:Generator_ColumnPropNameInTable="dibayarColumn" msprop:Generator_ColumnPropNameInRow="dibayar" msprop:Generator_ColumnVarNameInTable="columndibayar" type="xs:int" />
+              <xs:element name="kembali" msprop:Generator_UserColumnName="kembali" msprop:Generator_ColumnPropNameInTable="kembaliColumn" msprop:Generator_ColumnPropNameInRow="kembali" msprop:Generator_ColumnVarNameInTable="columnkembali" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tbl_detailjual" msprop:Generator_RowClassName="tbl_detailjualRow" msprop:Generator_RowEvHandlerName="tbl_detailjualRowChangeEventHandler" msprop:Generator_RowDeletedName="tbl_detailjualRowDeleted" msprop:Generator_RowDeletingName="tbl_detailjualRowDeleting" msprop:Generator_RowEvArgName="tbl_detailjualRowChangeEvent" msprop:Generator_TablePropName="tbl_detailjual" msprop:Generator_RowChangedName="tbl_detailjualRowChanged" msprop:Generator_UserTableName="tbl_detailjual" msprop:Generator_RowChangingName="tbl_detailjualRowChanging" msprop:Generator_TableClassName="tbl_detailjualDataTable" msprop:Generator_TableVarName="tabletbl_detailjual">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nojual" msprop:Generator_UserColumnName="nojual" msprop:Generator_ColumnPropNameInTable="nojualColumn" msprop:Generator_ColumnPropNameInRow="nojual" msprop:Generator_ColumnVarNameInTable="columnnojual">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="namamenu" msprop:Generator_UserColumnName="namamenu" msprop:Generator_ColumnPropNameInTable="namamenuColumn" msprop:Generator_ColumnPropNameInRow="namamenu" msprop:Generator_ColumnVarNameInTable="columnnamamenu">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hargajual" msprop:Generator_UserColumnName="hargajual" msprop:Generator_ColumnPropNameInTable="hargajualColumn" msprop:Generator_ColumnPropNameInRow="hargajual" msprop:Generator_ColumnVarNameInTable="columnhargajual" type="xs:int" />
+              <xs:element name="jumlahjual" msprop:Generator_UserColumnName="jumlahjual" msprop:Generator_ColumnPropNameInTable="jumlahjualColumn" msprop:Generator_ColumnPropNameInRow="jumlahjual" msprop:Generator_ColumnVarNameInTable="columnjumlahjual" type="xs:int" />
+              <xs:element name="subtotal" msprop:Generator_UserColumnName="subtotal" msprop:Generator_ColumnPropNameInTable="subtotalColumn" msprop:Generator_ColumnPropNameInRow="subtotal" msprop:Generator_ColumnVarNameInTable="columnsubtotal" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tbl_jual" msprop:Generator_RowClassName="tbl_jualRow" msprop:Generator_RowEvHandlerName="tbl_jualRowChangeEventHandler" msprop:Generator_RowDeletedName="tbl_jualRowDeleted" msprop:Generator_RowDeletingName="tbl_jualRowDeleting" msprop:Generator_RowEvArgName="tbl_jualRowChangeEvent" msprop:Generator_TablePropName="tbl_jual" msprop:Generator_RowChangedName="tbl_jualRowChanged" msprop:Generator_UserTableName="tbl_jual" msprop:Generator_RowChangingName="tbl_jualRowChanging" msprop:Generator_TableClassName="tbl_jualDataTable" msprop:Generator_TableVarName="tabletbl_jual">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nojual" msprop:Generator_UserColumnName="nojual" msprop:Generator_ColumnPropNameInTable="nojualColumn" msprop:Generator_ColumnPropNameInRow="nojual" msprop:Generator_ColumnVarNameInTable="columnnojual">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tgljual" msprop:Generator_UserColumnName="tgljual" msprop:Generator_ColumnPropNameInTable="tgljualColumn" msprop:Generator_ColumnPropNameInRow="tgljual" msprop:Generator_ColumnVarNameInTable="columntgljual" type="xs:dateTime" />
+              <xs:element name="jamjual" msprop:Generator_UserColumnName="jamjual" msprop:Generator_ColumnPropNameInTable="jamjualColumn" msprop:Generator_ColumnPropNameInRow="jamjual" msprop:Generator_ColumnVarNameInTable="columnjamjual" type="xs:duration" />
+              <xs:element name="itemjual" msprop:Generator_UserColumnName="itemjual" msprop:Generator_ColumnPropNameInTable="itemjualColumn" msprop:Generator_ColumnPropNameInRow="itemjual" msprop:Generator_ColumnVarNameInTable="columnitemjual" type="xs:int" />
+              <xs:element name="totaljual" msprop:Generator_UserColumnName="totaljual" msprop:Generator_ColumnPropNameInTable="totaljualColumn" msprop:Generator_ColumnPropNameInRow="totaljual" msprop:Generator_ColumnVarNameInTable="columntotaljual" type="xs:int" />
+              <xs:element name="dibayar" msprop:Generator_UserColumnName="dibayar" msprop:Generator_ColumnPropNameInTable="dibayarColumn" msprop:Generator_ColumnPropNameInRow="dibayar" msprop:Generator_ColumnVarNameInTable="columndibayar" type="xs:int" />
+              <xs:element name="kembali" msprop:Generator_UserColumnName="kembali" msprop:Generator_ColumnPropNameInTable="kembaliColumn" msprop:Generator_ColumnPropNameInRow="kembali" msprop:Generator_ColumnVarNameInTable="columnkembali" type="xs:int" />
+              <xs:element name="kodepelanggan" msprop:Generator_UserColumnName="kodepelanggan" msprop:Generator_ColumnPropNameInTable="kodepelangganColumn" msprop:Generator_ColumnPropNameInRow="kodepelanggan" msprop:Generator_ColumnVarNameInTable="columnkodepelanggan">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="kodeadmin" msprop:Generator_UserColumnName="kodeadmin" msprop:Generator_ColumnPropNameInTable="kodeadminColumn" msprop:Generator_ColumnPropNameInRow="kodeadmin" msprop:Generator_ColumnVarNameInTable="columnkodeadmin">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tbl_menu" msprop:Generator_RowClassName="tbl_menuRow" msprop:Generator_RowEvHandlerName="tbl_menuRowChangeEventHandler" msprop:Generator_RowDeletedName="tbl_menuRowDeleted" msprop:Generator_RowDeletingName="tbl_menuRowDeleting" msprop:Generator_RowEvArgName="tbl_menuRowChangeEvent" msprop:Generator_TablePropName="tbl_menu" msprop:Generator_RowChangedName="tbl_menuRowChanged" msprop:Generator_UserTableName="tbl_menu" msprop:Generator_RowChangingName="tbl_menuRowChanging" msprop:Generator_TableClassName="tbl_menuDataTable" msprop:Generator_TableVarName="tabletbl_menu">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="namamenu" msprop:Generator_UserColumnName="namamenu" msprop:Generator_ColumnPropNameInTable="namamenuColumn" msprop:Generator_ColumnPropNameInRow="namamenu" msprop:Generator_ColumnVarNameInTable="columnnamamenu">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="komposisi" msprop:Generator_UserColumnName="komposisi" msprop:Generator_ColumnPropNameInTable="komposisiColumn" msprop:Generator_ColumnPropNameInRow="komposisi" msprop:Generator_ColumnVarNameInTable="columnkomposisi">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="jumlahstok" msprop:Generator_UserColumnName="jumlahstok" msprop:Generator_ColumnPropNameInTable="jumlahstokColumn" msprop:Generator_ColumnPropNameInRow="jumlahstok" msprop:Generator_ColumnVarNameInTable="columnjumlahstok" type="xs:int" />
+              <xs:element name="satuanbarang" msprop:Generator_UserColumnName="satuanbarang" msprop:Generator_ColumnPropNameInTable="satuanbarangColumn" msprop:Generator_ColumnPropNameInRow="satuanbarang" msprop:Generator_ColumnVarNameInTable="columnsatuanbarang">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tbl_pelanggan" msprop:Generator_RowClassName="tbl_pelangganRow" msprop:Generator_RowEvHandlerName="tbl_pelangganRowChangeEventHandler" msprop:Generator_RowDeletedName="tbl_pelangganRowDeleted" msprop:Generator_RowDeletingName="tbl_pelangganRowDeleting" msprop:Generator_RowEvArgName="tbl_pelangganRowChangeEvent" msprop:Generator_TablePropName="tbl_pelanggan" msprop:Generator_RowChangedName="tbl_pelangganRowChanged" msprop:Generator_UserTableName="tbl_pelanggan" msprop:Generator_RowChangingName="tbl_pelangganRowChanging" msprop:Generator_TableClassName="tbl_pelangganDataTable" msprop:Generator_TableVarName="tabletbl_pelanggan">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="kodepelanggan" msprop:Generator_UserColumnName="kodepelanggan" msprop:Generator_ColumnPropNameInTable="kodepelangganColumn" msprop:Generator_ColumnPropNameInRow="kodepelanggan" msprop:Generator_ColumnVarNameInTable="columnkodepelanggan">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="namapelanggan" msprop:Generator_UserColumnName="namapelanggan" msprop:Generator_ColumnPropNameInTable="namapelangganColumn" msprop:Generator_ColumnPropNameInRow="namapelanggan" msprop:Generator_ColumnVarNameInTable="columnnamapelanggan">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="namamenu" msprop:Generator_UserColumnName="namamenu" msprop:Generator_ColumnPropNameInTable="namamenuColumn" msprop:Generator_ColumnPropNameInRow="namamenu" msprop:Generator_ColumnVarNameInTable="columnnamamenu">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="harga" msprop:Generator_UserColumnName="harga" msprop:Generator_ColumnPropNameInTable="hargaColumn" msprop:Generator_ColumnPropNameInRow="harga" msprop:Generator_ColumnVarNameInTable="columnharga" type="xs:int" />
+              <xs:element name="jumlah" msprop:Generator_UserColumnName="jumlah" msprop:Generator_ColumnPropNameInTable="jumlahColumn" msprop:Generator_ColumnPropNameInRow="jumlah" msprop:Generator_ColumnVarNameInTable="columnjumlah" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tbl_admin" />
+      <xs:field xpath="mstns:kodeadmin" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
