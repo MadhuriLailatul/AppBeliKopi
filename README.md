@@ -17,7 +17,7 @@ Aplikasi ini dirancang untuk mensimulasikan proses pembelian kopi di sebuah keda
 
 ## Teknologi yang Digunakan
 
-- *Visual Studio Code* – Editor pengembangan
+- *Visual Studio* – Editor pengembangan
 - *HTML, CSS, JavaScript* – Tampilan dan interaksi pengguna
 - *PHP* – Pengolahan data di sisi server
 - *MySQL* – Database penyimpanan data menu dan transaksi
