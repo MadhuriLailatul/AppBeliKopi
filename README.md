@@ -2,6 +2,8 @@
 
 Proyek ini adalah aplikasi sederhana untuk pembelian kopi secara digital, yang dikembangkan sebagai tugas mata kuliah Pemrograman Visual. Aplikasi ini dibuat menggunakan Visual Studio Code dengan bahasa pemrograman HTML, CSS, JavaScript, dan PHP serta MySQL sebagai database.
 
+![image alt]()
+
 ## Deskripsi
 
 Aplikasi ini dirancang untuk mensimulasikan proses pembelian kopi di sebuah kedai. Pengguna dapat melihat daftar menu kopi, menambahkan pesanan ke keranjang, menghitung total harga, dan melakukan checkout. Admin dapat mengelola data menu kopi seperti menambah, mengedit, atau menghapus menu.
