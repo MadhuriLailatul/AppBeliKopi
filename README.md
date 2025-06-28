@@ -2,7 +2,7 @@
 
 Proyek ini adalah aplikasi sederhana untuk pembelian kopi secara digital, yang dikembangkan sebagai tugas mata kuliah Pemrograman Visual. Aplikasi ini dibuat menggunakan Visual Studio Code dengan bahasa pemrograman HTML, CSS, JavaScript, dan PHP serta MySQL sebagai database.
 
-![image alt]()
+![image alt](https://github.com/MadhuriLailatul/AppBeliKopi/blob/de776deaa6c3373f9ffdd5b4ff0f9ca6c2d9dfe6/pemvis.png)
 
 ## Deskripsi
 
